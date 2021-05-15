@@ -45,7 +45,7 @@
     </div>
 
     <div v-if="views">
-      <img :src="output" id="" alt="" srcset="" />
+      <img :src="output" id="" alt="" srcset="" width="100%" />
     </div>
     <a href="//zuphaims.com/4/3880520">
       <p>إضغط هنا لدعم</p>
@@ -85,6 +85,7 @@ export default {
     },
     add: function() {
       this.$store.dispatch("add", this.userInput);
+      window.location = "";
     },
   },
   mounted() {
