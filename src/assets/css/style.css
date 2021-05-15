@@ -9,6 +9,10 @@
 }
 .logo {
   font-family: "Reem Kufi", sans-serif;
+  border-bottom: 2px dotted rgb(61, 60, 60);
+  width: 50%;
+  padding-bottom: 6px;
+  margin: 0 auto;
  
 }
 .auth {
