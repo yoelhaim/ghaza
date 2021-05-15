@@ -45,7 +45,13 @@
     <a href="//zuphaims.com/4/3880520">
       <p>إضغط هنا لدعم</p>
       <div>
-        <img src="@/assets/palestine.svg" alt="" srcset="" height="200px" />
+        <img
+          src="@/assets/palestine.svg"
+          alt=""
+          srcset=""
+          height="200px"
+          width="100%"
+        />
       </div>
     </a>
   </div>
