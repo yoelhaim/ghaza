@@ -1,7 +1,7 @@
 <template>
   <div class="home container mt-2 mb-4">
-    <div class="alert alert-success" ref="printMe">
-      <h1 class="logo">إدعم فلسطين</h1>
+    <div class="alert alert-success" ref="printMe" style="border-radius:15px">
+      <h1 class="logo">وتيقة دعم فلسطين</h1>
       <div class="container">
         <div v-if="!$store.getters.isLog">
           <b-form-input
@@ -13,23 +13,18 @@
             >شارك ألان في الحملة</b-button
           >
         </div>
-        <div v-else class=" p-3" style="text-align:right" id="target">
+        <div v-else class=" p-1" style="text-align:right" id="target">
           <p></p>
           <p>
-            إسمي
-            <strong class="text-danger" style="font-size:27px">
+            <span>الإسم الكامل :</span>
+            <strong class="text-danger " style="font-size:27px">
               {{ $store.getters.getUser }}
             </strong>
           </p>
-          <br />
-          أنا ادعم فلسطين لا لحرب ضد غزة فلسطين بلدي ،فلسطين قضيتي لن أتسمح فيها
+          أنا ادعم فلسطين لا للحرب ضد غزة فلسطين بلدي ،فلسطين قضيتي لن اتسامح
+          فيها
           <hr />
-          <p>
-            my name is :
-            <strong class="text-danger" style="font-size:27px">
-              {{ $store.getters.getUser }}
-            </strong>
-          </p>
+
           <p>
             I support Palestine, not a war against Gaza, Palestine is my
             country, Palestine is my cause, I will not tolerate it
