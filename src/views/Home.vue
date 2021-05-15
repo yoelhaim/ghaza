@@ -13,7 +13,7 @@
             >شارك ألان في الحملة</b-button
           >
         </div>
-        <div class="card p-3" style="text-align:right" id="target">
+        <div v-else class="card p-3" style="text-align:right" id="target">
           <p></p>
           <p>
             إسمي
